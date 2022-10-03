@@ -1,6 +1,6 @@
 package programmingtheorems;
 
-public class Osszegzes {
+public class SummationTheory {
 
 	public static void main(String[] args) {
 		System.out.println("Összegzés tétele");
@@ -9,10 +9,9 @@ public class Osszegzes {
 		int sum = 0;
 
 		for (int i = 0; i < someArray.length; i++) {
-			System.out.println("A tömb elemei: " + someArray[i]);
+			System.out.println("Elements of the array: " + someArray[i]);
 			sum += someArray[i];
 		}
 		System.out.println("A tömb összege: " + sum);
 	}
-
 }
